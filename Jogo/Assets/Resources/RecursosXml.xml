@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JogoXML>
+
+ <Personagens>
+ <Personagem nome="Jacklin" vida="1000" saciedade="1000" dano="1" velocidadeAt="2" velocidadeM="5"></Personagem>
+
+ </Personagens>
+
+ <Blocos>
+ <Bloco nome="carvao" raridade="5" durabilidade="12" ></Bloco>
+ <Bloco nome="cobre" raridade="2.5" durabilidade="15" ></Bloco>
+ <Bloco nome="ferro" raridade="2" durabilidade="20" ></Bloco>
+ <Bloco nome="quadpala" raridade="1" durabilidade="30" ></Bloco>
+ <Bloco nome="pedra" raridade="0" durabilidade="10" ></Bloco>
+ <Bloco nome="terra" raridade="0" durabilidade="10" ></Bloco>
+ <Bloco nome="grama" raridade="0" durabilidade="10" ></Bloco>
+
+
+ </Blocos>
+ 
+ <Faunas>
+  <Fauna nome="arvoreDragao" raridade="15" durabilidade="15" ></Fauna>
+  <Fauna nome="salgueiro" raridade="30" durabilidade="15" ></Fauna>
+  <Fauna nome="arbusto" raridade="40" durabilidade="5" ></Fauna>
+ 
+ </Faunas>
+
+ <Coletaveis>
+ <Coletavel nome="tronco" amount="1"></Coletavel>
+ <Coletavel nome="cipo" amount="1"></Coletavel>
+ <Coletavel nome="graveto" amount="1"></Coletavel>
+ <Coletavel nome="gosma" amount="1"></Coletavel>
+ <Coletavel nome="mCarvao" amount="1"></Coletavel>
+ <Coletavel nome="mFerro" amount="1"></Coletavel>
+ <Coletavel nome="mCobre" amount="1"></Coletavel>
+ <Coletavel nome="mQuadPala" amount="1"></Coletavel>
+ <Coletavel nome="terra" amount="1"></Coletavel>
+ <Coletavel nome="pedra" amount="1"></Coletavel>
+
+ </Coletaveis>
+
+ <Comidas>
+ <Comida nome="amora" amount="1" vida="100" saciedade="200"></Comida>
+  <Comida nome="tatiriko" amount="1" vida="150" saciedade="250"></Comida>
+   <Comida nome="carneC" amount="1" vida="-100" saciedade="200"></Comida>
+
+ </Comidas>
+
+ <ComidaAssada>
+ <Assada nome="carneA" amount="1" vida="250" saciedade="500" receita="carneA"></Assada>
+
+ </ComidaAssada>
+
+
+ <Animais>
+  <Animal nome="Beaster" raridade="5" vida="1000" dano="100" velocidadeAt="2" velocidadeM="30"></Animal>
+  <Animal nome="Amoeba" raridade="0" vida="100" dano="40" velocidadeAt="4" velocidadeM="10"></Animal>
+  <Animal nome="Pangolin" raridade="0" vida="200" dano="50" velocidadeAt="1" velocidadeM="50"></Animal>
+  <Animal nome="Frogion" raridade="5" vida="500" dano="80" velocidadeAt="3" velocidadeM="30"></Animal>
+  <Animal nome="Nekofiro" raridade="4" vida="300" dano="0" velocidadeAt="0" velocidadeM="50"></Animal>
+  <Animal nome="Ayele" raridade="0" vida="50" dano="0" velocidadeAt="0" velocidadeM="60"></Animal>
+
+ </Animais>
+
+ <Criacoes>
+  <Criacao nome="mesa" vida="50" receita="mesa"></Criacao>
+  <Criacao nome="fornalha" vida="50" receita="fornalha"></Criacao>
+  <Criacao nome="Fogueira" vida="50" receita="fogueira"></Criacao>
+
+ </Criacoes>
+
+ <Lingotes>
+ <Lingote nome="lingote de Ferro" amount="1" receita="lingote de Ferro"></Lingote>
+ <Lingote nome="lingote de Cobre" amount="1" receita="lingote de Cobre"></Lingote>
+ <Lingote nome="lingote de Aco" amount="1" receita="lingote de Aco"></Lingote>
+
+ </Lingotes>
+
+ <Ferramentas>
+ <Ferramenta nome="tocha" durabilidade="0" dano="0" receita="tocha" type="CONSTRUCOES"></Ferramenta>
+ <Ferramenta nome="Pá de Madeira" durabilidade="10" dano="2" receita="paMadeira" type="PA"></Ferramenta>
+ <Ferramenta nome="Pá de Pedra" durabilidade="25" dano="3" receita="paPedra" type="PA"></Ferramenta>
+ <Ferramenta nome="Pá de Cobre" durabilidade="30" dano="4" receita="paCobre" type="PA"></Ferramenta>
+ <Ferramenta nome="Pá de Ferro" durabilidade="35" dano="5" receita="paFerro" type="PA"></Ferramenta>
+ <Ferramenta nome="Pá de Aço" durabilidade="45" dano="5" receita="paAco" type="PA"></Ferramenta>
+ <Ferramenta nome="Picareta de Madeira" durabilidade="10" dano="2" receita="picMadeira" type="PICARETA"></Ferramenta>
+ <Ferramenta nome="Picareta de Pedra" durabilidade="20" dano="3" receita="picPedra" type="PICARETA"></Ferramenta>
+ <Ferramenta nome="Picareta de Cobre" durabilidade="30" dano="4" receita="picCobre" type="PICARETA"></Ferramenta>
+ <Ferramenta nome="Picareta de Ferro" durabilidade="35" dano="5" receita="picFerro" type="PICARETA"></Ferramenta>
+ <Ferramenta nome="Picareta de Aço" durabilidade="45" dano="5" receita="picAco" type="PICARETA"></Ferramenta>
+ <Ferramenta nome="Machado de Madeira" durabilidade="10" dano="2" receita="macMadeira" type="MACHADO"></Ferramenta>
+ <Ferramenta nome="Machado de Pedra" durabilidade="25" dano="3" receita="macPedra" type="MACHADO"></Ferramenta>
+ <Ferramenta nome="Machado de Cobre" durabilidade="30" dano="4" receita="macCobre" type="MACHADO"></Ferramenta>
+ <Ferramenta nome="Machado de Ferro" durabilidade="35" dano="5" receita="macFerro" type="MACHADO"></Ferramenta>
+ <Ferramenta nome="Machado de Aço" durabilidade="45" dano="6" receita="macAco" type="MACHADO"></Ferramenta>
+ <Ferramenta nome="Machado de Quadpala" durabilidade="50" dano="10" receita="macQuad" type="MACHADO"></Ferramenta>
+
+ </Ferramentas>
+
+ <Espadas>
+ <Espada nome="Espada de Madeira" durabilidade="80" dano="20" receita="espMadeira" type="ESPADA"></Espada>
+ <Espada nome="Espada de Pedra" durabilidade="100" dano="30" receita="espPedra" type="ESPADA"></Espada>
+ <Espada nome="Espada de Cobre" durabilidade="110" dano="35" receita="espCobre" type="ESPADA"></Espada>
+ <Espada nome="Espada de Ferro" durabilidade="140" dano="40" receita="espFerro" type="ESPADA"></Espada>
+ <Espada nome="Espada de Aço" durabilidade="150" dano="50" receita="espAco" type="ESPADA"></Espada>
+ <Espada nome="Espada de Quadpala" durabilidade="200" dano="100" receita="espQuad" type="ESPADA"></Espada>
+
+ </Espadas>
+
+<Receitas>
+  <Receita nome="carneA">
+    <Item nome="mCarvao" qnt="1"></Item>
+    <Item nome="carneC" qnt="1"></Item>
+  </Receita>
+  <Receita nome="mesa">
+    <Item nome="tronco" qnt="20"></Item>
+  </Receita>
+   <Receita nome="fornalha">
+    <Item nome="pedra" qnt="30"></Item>
+  </Receita>
+   <Receita nome="fogueira">
+    <Item nome="tronco" qnt="10"></Item>
+  </Receita>
+    <Receita nome="lingote de Ferro">
+    <Item nome="mFerro" qnt="2"></Item>
+    <Item nome="mCarvao" qnt="5"></Item>
+  </Receita>
+  <Receita nome="lingote de Cobre">
+    <Item nome="mCobre" qnt="2"></Item>
+    <Item nome="mCarvao" qnt="2"></Item>
+  </Receita>
+  <Receita nome="lingote de Aco">
+    <Item nome="lingote de Ferro" qnt="2"></Item>
+    <Item nome="mCarvao" qnt="10"></Item>
+  </Receita>
+  <Receita nome="tocha">
+    <Item nome="graveto" qnt="1"></Item>
+    <Item nome="gosma" qnt="1"></Item>
+  </Receita>
+  <Receita nome="paMadeira">
+    <Item nome="graveto" qnt="1"></Item>
+    <Item nome="tronco" qnt="1"></Item>
+    <Item nome="cipo" qnt="5"></Item>
+  </Receita>
+  <Receita nome="paPedra">
+    <Item nome="graveto" qnt="1"></Item>
+    <Item nome="pedra" qnt="1"></Item>
+    <Item nome="cipo" qnt="5"></Item>
+  </Receita>
+
+  <Receita nome="paCobre">
+    <Item nome="tronco" qnt="1"></Item>
+    <Item nome="lingote de Cobre" qnt="2"></Item>
+  </Receita>
+    <Receita nome="paFerro">
+    <Item nome="tronco" qnt="2"></Item>
+    <Item nome="lingote de Ferro" qnt="4"></Item>
+  </Receita>
+  <Receita nome="paAco">
+    <Item nome="tronco" qnt="2"></Item>
+    <Item nome="lingote de Aco" qnt="2"></Item>
+  </Receita>
+  <Receita nome="picMadeira">
+    <Item nome="graveto" qnt="1"></Item>
+    <Item nome="tronco" qnt="3"></Item>
+    <Item nome="cipo" qnt="5"></Item>
+  </Receita>
+  <Receita nome="picPedra">
+    <Item nome="graveto" qnt="1"></Item>
+    <Item nome="pedra" qnt="3"></Item>
+    <Item nome="cipo" qnt="5"></Item>
+  </Receita>
+  <Receita nome="picCobre">
+    <Item nome="tronco" qnt="1"></Item>
+    <Item nome="lingote de Cobre" qnt="4"></Item>
+  </Receita>
+  <Receita nome="picFerro">
+    <Item nome="tronco" qnt="2"></Item>
+    <Item nome="lingote de Ferro" qnt="4"></Item>
+  </Receita>  
+  <Receita nome="picAco">
+    <Item nome="tronco" qnt="2"></Item>
+    <Item nome="lingote de Aco" qnt="4"></Item>
+  </Receita>
+  <Receita nome="macMadeira">
+    <Item nome="graveto" qnt="1"></Item>
+    <Item nome="tronco" qnt="2"></Item>
+    <Item nome="cipo" qnt="5"></Item>
+  </Receita>
+  <Receita nome="macPedra">
+    <Item nome="graveto" qnt="1"></Item>
+    <Item nome="pedra" qnt="2"></Item>
+    <Item nome="cipo" qnt="5"></Item>
+  </Receita>
+  <Receita nome="macCobre">
+    <Item nome="tronco" qnt="1"></Item>
+    <Item nome="lingote de Cobre" qnt="3"></Item>
+  </Receita>
+  <Receita nome="macFerro">
+    <Item nome="tronco" qnt="2"></Item>
+    <Item nome="lingote de Ferro" qnt="3"></Item>
+  </Receita>
+  <Receita nome="macAco">
+    <Item nome="tronco" qnt="2"></Item>
+    <Item nome="lingote de Aco" qnt="3"></Item>
+  </Receita>
+  <Receita nome="macQuad">
+    <Item nome="lingote de Ferro" qnt="4"></Item>
+    <Item nome="mQuadPala" qnt="2"></Item>
+  </Receita>
+  <Receita nome="espMadeira">
+    <Item nome="graveto" qnt="1"></Item>
+    <Item nome="tronco" qnt="2"></Item>
+  </Receita>
+ <Receita nome="espPedra">
+    <Item nome="graveto" qnt="1"></Item>
+    <Item nome="pedra" qnt="3"></Item>
+  </Receita>
+ <Receita nome="espCobre">
+    <Item nome="graveto" qnt="1"></Item>
+    <Item nome="lingote de Cobre" qnt="2"></Item>
+  </Receita>
+   <Receita nome="espFerro">
+    <Item nome="tronco" qnt="1"></Item>
+    <Item nome="lingote de Ferro" qnt="2"></Item>
+  </Receita>
+  <Receita nome="espAco">
+    <Item nome="tronco" qnt="1"></Item>
+    <Item nome="lingote de Aco" qnt="2"></Item>
+  </Receita>
+  <Receita nome="espQuad">
+    <Item nome="lingote de Aco" qnt="2"></Item>
+    <Item nome="mQuadPala" qnt="2"></Item>
+  </Receita>
+ 
+ </Receitas>
+
+</JogoXML>

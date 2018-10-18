@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 48f18e179d707a048a8aeb3aed693a5a
+timeCreated: 1476470533
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - xml: {fileID: 4900000, guid: 8937520b3e658ea4fb5c4f1b8be6e3b5, type: 3}
+  - nomeTxt: {instanceID: 0}
+  - recTxt: {instanceID: 0}
+  - showCraft: {instanceID: 0}
+  - canvas: {fileID: 22327162, guid: 785c677140423974f9c535abe5028045, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
